@@ -1,0 +1,25 @@
+{
+    "name": "sagittariusx/beluga.io",
+    "description": "The SagittariusX Beluga IO library.",
+    "authors": [
+        {
+            "name": "SagittariusX",
+            "email": "unikado+sag@gmail.com"
+        }
+    ],
+    "license": "LGPLv3",
+    "require": {
+        "php": ">=7.0",
+        "sagittariusx/beluga.core": "^0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.6"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-0": {
+            "Beluga\\IO\\": "src/"
+        }
+    }
+}
