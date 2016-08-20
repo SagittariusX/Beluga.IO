@@ -202,7 +202,7 @@ abstract class Path
       $info    = [ 'dirname' => '', 'basename' => '', 'extension' => '', 'filename' => '' ];
       $pathInfo = [];
 
-      if ( preg_match( '%^(.*?)[\\\\/]*(([^/\\\\]*?)(\.([^\.\\\\/]+?)|))[\\\\/\.]*$%im', $path, $pathinfo ) )
+      if ( preg_match( '%^(.*?)[\\\\/]*(([^/\\\\]*?)(\.([^\.\\\\/]+?)|))[\\\\/\.]*$%im', $path, $pathInfo ) )
       {
          if ( array_key_exists( 1, $pathInfo ) )
          {
