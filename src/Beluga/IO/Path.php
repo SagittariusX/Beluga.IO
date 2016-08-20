@@ -7,7 +7,7 @@
  * @package        Beluga
  * @since          2016-08-08
  * @subpackage     IO
- * @version        0.1.0
+ * @version        0.1.1
  */
 
 

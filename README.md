@@ -12,7 +12,7 @@ or include it inside you're composer.json
 {
    "require": {
       "php": ">=7.0",
-      "sagittariusx/beluga.io": "^0.1.0"
+      "sagittariusx/beluga.io": "^0.1.1"
    }
 }
 ```
